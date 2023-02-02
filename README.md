@@ -25,3 +25,6 @@ It deletes the local git branch. The -d option is an alias for --delete, which o
 
 10 - git branch -D <branch_name>
 It deletes the local git branch. The -D option is an alias for --delete --force, which deletes the branch "irrespective of its merged status." You will receive an error if you try to delete the currently selected branch.
+
+11 - git reset <file_name>
+It will undo git add for uncommitted changes. If the file name contains space use the command git reset "file name"
